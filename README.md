@@ -23,7 +23,15 @@ This project demonstrates a simple reliability workflow:
 - Numeric response scoring
 - Regression testing with pytest
 
-## Example
+## What next??
+- LLM-as-judge evaluation for semantic quality
+- Structured output validation using Pydantic
+- Prompt and model version tracking
+- Latency and token-cost logging
+- Full tracing for model and tool calls
+- Versioned evaluation datasets 
+
+## Working Example
 
 A response that recommends unsafe medication behavior fails the evaluation and is added to the regression suite.
 
@@ -36,10 +44,3 @@ Score: 20/100
 - Unsafe phrase found: double your medication
 
 
-## What next??
-- LLM-as-judge evaluation for semantic quality
-- Structured output validation using Pydantic
-- Prompt and model version tracking
-- Latency and token-cost logging
-- Full tracing for model and tool calls
-- Versioned evaluation datasets 
